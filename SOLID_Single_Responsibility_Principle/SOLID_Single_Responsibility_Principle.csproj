@@ -7,4 +7,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Library_SRP\Library_SRP.csproj" />
+  </ItemGroup>
+
 </Project>
