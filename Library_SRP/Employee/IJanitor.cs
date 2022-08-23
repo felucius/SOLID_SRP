@@ -1,12 +1,14 @@
 ﻿
+using Library_SRP.Animal;
+
 namespace Library_SRP.Employee
 {
     public interface IJanitor : IEmployee
     {
         bool HasKeysToWholeFacility { get; set; }
 
-        void CleanRoom();
+        void CleanRoom(IJanitor janitor, IAnimal animal);
 
-        bool LockUpBuilding();
+        bool LockUpBuilding(IJanitor janitor);
     }
 }

@@ -1,12 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Library_SRP.Shelter
 {
-    internal class Room
+    public class Room : IRoom
     {
+        public int SizeinSquareMeters { get; set; }
+        public bool MultipleAnimalAllowed { get; set; }
     }
 }

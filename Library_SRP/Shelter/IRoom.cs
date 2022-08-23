@@ -1,12 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Library_SRP.Shelter
 {
-    internal interface IRoom
+    public interface IRoom
     {
+        public int SizeinSquareMeters { get; set; }
+
+        public bool MultipleAnimalAllowed { get; set; }
     }
 }

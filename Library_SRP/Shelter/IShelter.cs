@@ -1,12 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Library_SRP.Shelter
 {
-    internal interface IShelter
+    public interface IShelter
     {
+        string Name { get; set; }
+        string Address { get; set; }
+
+        DateTime Established { get; set; }
+        List<IRoom> Rooms { get; set; }
     }
 }

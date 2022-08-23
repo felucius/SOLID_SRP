@@ -18,12 +18,12 @@ namespace Library_SRP.Employee
 
         public void GiveFood(ICareTaker careTaker, IAnimal animal)
         {
-            StandardMessages.FeedAnimal(careTaker, animal);
+            StandardMessages.FeedAnimalMessage(careTaker, animal);
         }
 
         public void GroomAnimal(ICareTaker careTaker, IAnimal animal)
         {
-            StandardMessages.GroomAnimal(careTaker, animal);
+            StandardMessages.GroomAnimalMessage(careTaker, animal);
         }
     }
 }

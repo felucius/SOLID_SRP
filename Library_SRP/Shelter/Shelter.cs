@@ -1,12 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace Library_SRP.Shelter
 {
-    internal class Shelter
+    public class Shelter : IShelter
     {
+        public string? Name { get; set; }
+        public string? Address { get; set; }
+        public DateTime Established { get; set; }
+        public List<IRoom>? Rooms { get; set; }
     }
 }
